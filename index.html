@@ -21,24 +21,38 @@
     }
     .btn{
       margin: 9px;
-      border-radius: 13px;
+      
       background: rgba(255,255,255,0.35);
       box-shadow: 0 3px (0,0,0,0.1);
       border: 2px solid (255,255,255,0.3);
       -webkit-transition: 0.9s;
+      background: radius transparent;
     }
     .btn:hover{
       transform: scaleY(1.1);  
     }
+    marquee{
+        font-size: 17px;
+        background-color: #ffffff91;
+        border-radius: 13px;
+        box-shadow: 0 3px(0,0,0,0.1);
+        border: 2px solid(255,255,255,0.3);
+        
+    }
+    p{
+      background-color: transparent;
+      
+    }
     .container{
       width: 100%;
-      height: 100%;
+      height: 95vh;
       align-items: center;
       flex-direction: column;
       justify-content: center;
-    }    
+      background: transparent;
+    }
     .fade-in-out {
-    animation: fadeinout 3s linear infinite;
+    animation: fadeinout 0.5s linear infinite;
     }
     @keyframes fadeinout {
     0% {
@@ -53,38 +67,42 @@
   }
   </style>
 </head>
-<body style="background-image: url(https://img.freepik.com/premium-photo/orange-red-green-colorful-background-space-text-design_188078-25791.jpg?w=740);" class="img-fluid" alt="background" >
-  <section class="container">
+<body style="background-image: url(https://img.freepik.com/premium-photo/orange-red-green-colorful-background-space-text-design_188078-25791.jpg?w=740);" class="img-fluid" alt="background">
+  <section class="container shadow-lg">
     <center>
-     <img src="https://iili.io/HuCO6qN.jpg" style="width: 100px; height: 100px; margin: 5px;" class="img-thumbnail rounded-circle">
-    <p><b>@KAZENNKA</b><br><i>Pengepul Reff dan Open Cv</i></p>
-   <div class="d-grid">
+     <img src="https://iili.io/HuCO6qN.jpg" style="width: 100px; height: 100px; margin: 5px;" class="img-thumbnail rounded-circle shadow">
+    <p style="font-size: 20px;" class="text-center shadow"><b><a href="https://wa.me/6285659633093/" style="text-decoration: none; color: black;">   KAZENNKA  <svg style="color: #077bff;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+</svg> </a></b></p>
+    <marquee behaivor="right"><i>Berlarilah ketika kamu bisa, berjalan jika harus, merangkak jika perlu, jangan pernah menyerah</i></marquee>
+   <div class="d-grid shadow">
      <button class="btn btn-outline-success shadow btn-lg"><img src="https://cdn-icons-png.flaticon.com/512/1384/1384023.png" style="width: 25px;"><a href="https://wa.me/6285659633093/" target="_blank" style="text-decoration: none; color: black;"> WhatsApp</a></button>
    </div>
    <!-- WhatsApp -->
-   <div class="d-grid">
+   <div class="d-grid shadow">
      <button class="btn btn-outline-primary shadow btn-lg"><img src="https://cdn-icons-png.flaticon.com/512/747/747374.png" style="width: 25px;"><a href="https://www.facebook.com/saef.onefivesix" target="_blank" style="text-decoration: none; color: black;"> Facebook</a></button>
    </div>
    <!-- Telegram -->
-   <div class="d-grid">
+   <div class="d-grid shadow">
      <button class="btn btn-outline-danger shadow btn-lg"><img src="https://cdn-icons-png.flaticon.com/512/1077/1077042.png" style="width: 25px;"><a href="https://www.instagram.com/kazennka_co/" target="_blank" style="text-decoration: none; color: black;"> Instagram</a></button>
    </div>
    <!-- Instagram -->
-   <div class="d-grid">
+   <div class="d-grid shadow">
      <button class="btn btn-outline-info shadow btn-lg"><img src="https://cdn-icons-png.flaticon.com/512/739/739260.png" style="width: 25px;"><a href="https://t.me/Kazennka" target="_blank" style="text-decoration: none; color: black;"> Telegram</a></button>
    </div>
    <!-- Facebook -->
-   <div class="d-grid">
+   <div class="d-grid shadow">
      <button class="btn btn-outline-light shadow btn-lg"><img src="https://cdn-icons-png.flaticon.com/512/5894/5894760.png" style="width: 25px;"><a href="https://wa.me/6285659633093/" target="_blank" style="text-decoration: none; color: black;"> Convert, Top up dll</a></button>
-   </div>  
    </div>
-   <div class="d-grid">
+   
+   </div>
+   <div class="d-grid shadow">
      <button class="btn btn-outline-dark shadow btn-lg"><img src="https://cdn-icons-png.flaticon.com/512/2842/2842717.png" style="width: 25px;"><a href="index2.html" target="_blank" style="text-decoration: none; color: black;">Saweria</a></button>
    </div>  
    </center>
   </section>
-  <footer>
-      <h5 class="fade-in-out text-center">Created By<img src="https://cdn-icons-png.flaticon.com/512/252/252851.png" style="width: 25px;" alt="logo"><a href="https://www.instagram.com/kazennka_co/" style="text-decoration: none; color: black;">Aef Saepullah</a></h5>
+  <br>
+  <footer class="fade-in-out text-center">Created By<img src="https://cdn-icons-png.flaticon.com/512/252/252851.png" style="width: 25px;" alt="logo"><a href="https://www.instagram.com/kazennka_co/" style="text-decoration: none; color: black;">Aef Saepullah</a>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
